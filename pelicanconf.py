@@ -19,7 +19,10 @@ TRANSLATION_FEED_ATOM = None
 LINKS =  ()#(('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = ()#(('You can add links in your config file', '#'),)
+SOCIAL = (('twitter', 'http://twitter.com/nerdap/'),
+          ('github', 'http://github.com/nerdap/'),
+	  ('linkedin', 'http://in.linkedin.com/in/apoorvupreti/'),
+)
 
 DEFAULT_PAGINATION = 4
 

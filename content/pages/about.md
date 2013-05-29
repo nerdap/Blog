@@ -1,4 +1,4 @@
-Title: About Me
+Title: About
 Date: 2013-05-28 17:00
 Slug: about
 Author: Apoorv Upreti
