@@ -10,6 +10,8 @@ TIMEZONE = 'Asia/Kolkata'
 
 DEFAULT_LANG = u'en'
 
+THEME = r'./pelican-svbtle'
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
