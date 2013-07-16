@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="http://nerdap.github.io/theme/css/style.css">
+	<!--<link rel="stylesheet/less" type="text/css" href="/theme/css/style.less">-->
+	<!--<script src="/theme/js/less.js" type="text/javascript"></script>-->
+	<link rel="stylesheet" type="text/css" href="http://nerdap.github.io/theme/css/pygments.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:800,400,300|Inconsolata' rel='stylesheet' type='text/css'>
+
+	<link href="http://nerdap.github.io/" type="application/atom+xml" rel="alternate" title="Apoorv's Blog ATOM Feed" />
+	
+	
+			<title>Apoorv's Blog</title>
+		<meta charset="utf-8" />
+	</head>
+<body>
+	<section id="sidebar">
+		<figure id="user_logo">
+            <a href="http://nerdap.github.io"><div class="logo">&nbsp;</div></a>
+		</figure>
+
+		<div class="user_meta">
+            <h1 id="user"><a href="http://nerdap.github.io" class="">Apoorv Upreti</a></h1>
+			<h2></h2>
+						<ul>
+																			<li><a href="http://nerdap.github.io/pages/about.html">About</a></li>
+																</ul>
+		</div>
+		<footer>
+			<address>
+				Powered by <a href="http://pelican.notmyidea.org/">Pelican</a>,
+		                theme by <a href="https://github.com/wting/pelican-svbtle">wting</a>.
+			</address>
+		</footer>
+	</section>
+
+	<section id="posts">
+			<header>
+		<h1>Apoorv Upreti's blog</h1>
+		<h3>Posted Mon 10 June 2013</h3>
+	</header>
+	<article>
+		<h1 id="title">
+			<a href="http://nerdap.github.io/gsoc-2013-sdl.html" rel="bookmark"
+				title="Permalink to Google Summer of Code 2013 under SDL">Google Summer of Code 2013 under SDL</a>
+		</h1>
+		<p>SDL or Simple DirectMedia Layer is a low-level, cross-platform multimedia library that provides access to keyboard, mouse, audio and video hardware. It's available for Windows, Linux, OS X, iOS, Android, and many other platforms.</p>
+<p>My GSoC project concerns a test in the SDL test suite called testsprite2. This test simply launches a window and moves sprites around the screen as fast as possible. The basic objective of the test is to answer three questions:</p>
+<ol>
+<li>Is the window being created by the window manager as expected? (correct title, resolution, window state, etc.)</li>
+<li>Is mouse behavior being detected correctly?</li>
+<li>Are the sprites inside the window rendered correctly?</li>
+</ol>
+<p>The goal of this GSoC project is to automate this process. There are two major challenges to overcome. Firstly, testsprite2 takes 26 parameters as input with thousands of valid combinations. Success would mean testing as many valid combinations as possible. Secondly, verifying the success of the test is inherently hard to automate - it's much easier for a human to answer the above questions than for a computer to. By automating testsprite2, I hope to make it easier to detect certain kinds of bugs in SDL's code, ones that were missed out previously.</p>
+<p>I started using SDL years ago when I was still in high school. I fondly remember following lazy_foo's tutorials and struggling with concepts like blitting, double buffering and alpha blending. This is why the opportunity to make SDL better means a lot to me. I'm looking forward to working towards a top quality SDL 2.0 release this summer.</p>
+<p>Useful Links:</p>
+<ul>
+<li><a href="http://www.libsdl.org/gsoc.php" title="SDL GSoC Ideas Page">GSoC Ideas Page</a></li>
+<li><a href="https://github.com/nerdap/autotestsprite2/wiki" title="Project Wiki on GitHub">Project Wiki</a></li>
+<li><a href="http://www.google-melange.com/gsoc/proposal/review/google/gsoc2013/nerdap/10001" title="Application on Melange">Application on Melange</a></li>
+</ul>
+
+		<div id="article_meta">
+							Category:
+					<a href="http://nerdap.github.io/category/gsoc-2013.html">GSoC 2013</a>
+										<br />Tags:
+									<a href="http://nerdap.github.io/tag/gsoc.html">gsoc</a>
+									<a href="http://nerdap.github.io/tag/sdl.html">sdl</a>
+									</div>
+	</article>
+
+	<footer>
+		<a href="http://nerdap.github.io/" class="button_accent">&larr;&nbsp;&nbsp;&nbsp;Back to blog</a>
+	</footer>
+
+		<div id="comments">
+		<h2>Comments</h2>
+		<div id="disqus_thread"></div>
+		<script type="text/javascript">
+			var disqus_identifier = "gsoc-2013-sdl.html";
+			(function() {
+				var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+				dsq.src = 'http://apoorvblog.disqus.com/embed.js';
+				(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+			})();
+		</script>
+		<noscript>Please enable JavaScript to view <a href="http://disqus.com/?ref_noscript">comments</a>.</noscript>
+	</div>
+	
+	</section>
+
+	<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		try {
+			var pageTracker = _gat._getTracker("UA-41298255-1");
+			pageTracker._trackPageview();
+		} catch(err) {}</script>
+</body>
+</html>
