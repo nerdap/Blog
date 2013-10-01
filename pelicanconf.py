@@ -28,5 +28,7 @@ SOCIAL = (('twitter', 'http://twitter.com/nerdap/'),
 
 DEFAULT_PAGINATION = 4
 
+FILES_TO_COPY = (('extra/CNAME', 'CNAME'), )
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
